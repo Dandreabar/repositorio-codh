@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ematix Corp</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Stick+No+Bills:wght@200;600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body class="contacto__Body">
+     <!--action indica donde enviamos el formulario o si se queda alli mismo-->
+    <form action=""  class="contacto__form">
+        <fieldset>
+            <legend>Formulario de Consultas</legend>
+            <label for="name">Nombre y Apellido :</label>
+            <input type="text" name="name" placeholder="Ingresa Nombre y Apellido" required>
+            <!--br solo se utilizara hasta que utilicemos css-->
+            <br> 
+            <label for="email">Email :</label>
+            <input type="text" name="email" placeholder="Ingresa tu Email" required>
+            <br>
+            <label for="edad">Edad :</label>
+            <br>
+            <select name="edad" id="">
+             <option value="">Selecciona tu edad</option>  
+             <option value="0">Entre 15 y 30 años</option>
+             <option value="1">Entre 31 y 45 años</option>
+             <option value="2">Entre 45 y 60 años</option>
+             <option value="3">Más de 60 años</option>
+            </select>
+            <br>
+            <br>
+            <label for="pais">PAIS :</label>
+            <div>Chile</div>
+            <input type="radio" name="pais" value="Chile" checked="checked"  >
+            <div>Argentina</div>
+            <input type="radio" name="pais" value="Argentina" >
+            <div>Otro</div>
+            <input type="radio" name="pais" value="otro" >
+            <br>
+            <br>       
+             <label for="consulta">Escribe tu Consulta</label>
+             <br>  
+             <textarea name="consulta" id="" cols="30" rows="5" maxlength="600"></textarea>
+            <div>Articulos</div>
+            <input type="checkbox" name="cbox1" >Desea Recibir Ofertas de nuestros Productos
+            <input type="checkbox" name="cbox2" >Desea Recibir Noticias sobre Nuestas Novedades           
+            <br> 
+            <br> 
+            <input type="submit" value="Envía tu Consulta">
+            <input type="reset"  value="Limpia tu Formulario">            
+        </fieldset>
+    </form>
+</body>
+</html>

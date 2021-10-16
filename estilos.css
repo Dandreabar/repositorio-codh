@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;    
+} 
+body{
+    font-family: 'Stick No Bills', sans-serif;  
+}
+/* header */
+.header-banner{
+    background-image: url("./img/logoematix2.jpg");
+    background-color: white;     
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: right;
+    height: 20vh;
+}
+
+.header__navbar--principal li{
+    display: inline-block;
+}
+.header__navbar--principal a{   
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Stick No Bills', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: blanchedalmond;  
+    padding: 0.5rem;  
+    background-color: rgba(62, 173, 173, 0.87);
+}
+.header__navbar--principal li a:hover {
+    background-color:rgba(102, 110, 179, 0.678);
+    color: white;
+    padding: 0.7rem;
+    font-weight: bold;
+ }
+ .header-button{   
+    text-decoration: none;   
+    border-radius: 3%; 
+    position: absolute;
+    right:10rem;
+    top: 0%;
+}
+.header-button a{      
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(6, 15, 94);         
+}
+ .tabla{
+    position: relative;
+    width: 800px;
+    height: 230px;
+    background-color: rgba(216, 216, 216, 0.897);   
+    margin: 2rem;
+ }
+.tabla__div--principal tr th{
+    border: darkslategrey;
+    border-radius: 2%;
+    border-style: solid;
+    border-spacing: 1%;
+}
+.tabla__div--principal tr td{
+    border: rgb(12, 15, 15);
+    border-radius: 1%;
+    border-style: solid;
+    border-spacing: 0.5%;
+}
+footer{        
+        clear: both;            
+        background-color: black;
+        color: white;        
+}
+.footer__div{   
+    display: flex;    
+    justify-content: space-around;
+}
+
+footer__navbar--principal ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer__navbar--principal a{    
+        list-style: none;
+        text-decoration: none;       
+        text-transform: lowercase;        
+        color: white;
+        text-align: left;            
+        font-size: 1rem;            
+        padding: 1.5rem;   
+        margin: 2px;  
+}
+.footer__navbar2--principal a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: lowercase;    
+    color: white;
+    text-align: left;            
+    font-size: 1rem;            
+    padding: 0.5rem;   
+    margin: 0px 80px;  
+}
+.envio{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white;
+    text-align: left;            
+    font-size: 1rem;            
+    padding: 0.5rem;      
+   
+}
+.envio1{   
+    text-transform: lowercase;
+    color: white;            
+    font-size: 0.7rem; 
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+.envio2{   
+    text-transform: lowercase;   
+    color: rgb(19, 18, 18);          
+    font-size: 0.7rem; 
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+
+/* Estilos para el Formulario */
+.contacto__form{   
+    size: 50%;    
+    padding: 5rem 10rem 5rem 10rem;
+    
+}
+
+               
