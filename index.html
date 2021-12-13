@@ -4,103 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ematix Corp</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="description" content="Sitio de proyectos y desarrollos informaticos">
+    <meta name="keywords" content="informatica, desarrollo, servicios, soporte">
+    <title>Ematix Corp - Servicios y Desarrollos Informáticos </title>
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Stick+No+Bills:wght@200;600&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
-  </head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">    
+  </head> 
 <body>
-    <header class="header-banner">         
-        <nav class="header__navbar">
-          <ul class="header__navbar--principal">            
-              <li><a href="#">Home</a></li>
-              <li><a href="quienessomos.html">Nosotros</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="soporte.html">Soporte</a></li>          
-              <li><a href="novedades.html">Novedades</a></li>
-          </ul>
-       </nav>   
-       <div class="header-button">
-         <button ><a  href="contacto.html"  >Contacto</a> </button>
-       </div>   
-    </header>    
-             
-        <div class="tabla">
-        <table class="tabla__div--principal">
-            <tr>
-              <th>Producto y Servicio</th>
-              <th>Descripción</th>
-              <th>Valor </th>       
-              <th>Tipo  </th>       
-            </tr>
-            <tr>              
-              <td>Acceso a Plataforma On-line</td>
-              <td>Accedes desde tu PC Mediante escritorio 
-                  remoto a los Sistemas Contables de la empresa
-                  el proceso es por usuario</td>
-              <td>1,5 UF </td>      
-              <td>es un arriendo de pago Mensual</td>       
-            </tr>
-            <tr>
-              <td>Desarrollos WEB</td>
-              <td>Según las Necesidades que tenga tu negocio
-                Podemos Desarrollar un aplicativo para darte
-                una buena solucion tecnológica
-              </td>
-              <td>Se evalua según proyecto</td>   
-              <td>A Pactar Con Cliente</td>         
-            </tr> 
-            <tr>
-              <td>Configuracion de Notebook y PC</td>
-              <td>Formateo de Equipos, Configuración S.O. 
-                  Instalación y Configuración de Software
-              </td>
-              <td>2 uf</td>    
-              <td>por Cada Equipo, el trabajo es sin Respaldos</td>           
-            </tr>     
-            <tr>
-              <td>Asesorías Informáticas</td>
-              <td>Dependerá de la Empresa el servicio y 
-                Soporte en Dirección de Departamentos de Informatica
-                o dirección de algún proyecto Informatico
-              </td>
-              <td>entre 10 a 15 uf</td>    
-              <td>Costo Mensual</td>           
-            </tr>                                                     
-          </table>
-        </div>           
+ <nav class="navbar navbar-light bg-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light"  >
+      <img src="./img/logoematix.jpg" width="40" height="34" class="d-inline-block align-text-top"> Ematix     
+    </a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+   <nav class="navbar navbar-expand-lg navbar-light bg-opacity-10 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienessomos.html">Sobre Nosotros</a>
+              </li>          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Plataforma On-Line</a></li>
+                  <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Servicios TI</a></li>
+                  <li><a class="dropdown-item" href="#">Asesorias Outsoursing</a></li>
+                </ul>
+              </li>             
+              <li class="nav-item">
+                <a class="nav-link" href="soporte.html">Soporte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Casos de Exito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      <div class="container m-4">
+        <div class="row">
+          <div class="col">
+            <img src="./img/desarrolladores.png" alt="" width="200" height="160" class="border border-secondary border-5 rounded-circle">
+            <h3 class="m-3">SOMOS</h3>
+            <p class="m-2">Somos un grupo de trabajo de Ingenieros y Programadores
+              desde hace mucho años trabajamos para adaptar
+              necesidades de los usuarios y clientes en post de dar   
+              el mejor servicio Informatico.   </p>      
+          </div>
+          <div class="col">            
+            <img src="./img/ideasinternet.jpg" alt="" width="200" height="160" class="border border-secondary border-5 rounded-circle">
+             <h3 class="m-3">NOVEDADES</h3>
+            <p class="m-2">
+              Enterate de las Novedades y noticias del área  
+              los nuevos requerimientos, has tus consultas
+              a travez de nuestro Blog </p>
+          </div>
+          <div class="col">
+            <img src="./img/interconectados.jpg" height="160" class="border border-secondary border-5 rounded-circle">
+            <h3 class="m-3">PRODUCTOS Y SERVICIOS</h3>
+            <p class="m-2">
+              Nuestros Productos y Servicios
+              estan a la vanguardia y como siempre
+              adaptados a las necesidades de los
+              clientes</p>
+          </div>
+        </div>
+      </div>
+ 
   <footer>  
-   <div class="footer__div" >
-       <div>      
-        <nav class="footer__navbar">
-          <ul class="footer__navbar--principal"> 
-              <li><a href="quienessomos.html">Nosotros</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="soporte.html">Soporte</a></li>          
-              <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-       </nav>  
-       </div>    
-       <div>      
-        <nav>
-          <ul class="footer__navbar--principal">
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="novedades.html">Novedades</a></li>            
-          </ul>
-       </nav>  
-       </div>  
-         <div class="ubicacion" >
-           <p class="envio">Enterate de Nuestras Novedades</p>
-           <input type="text" name="name" placeholder="Ingresa tu Email" required class="envio1">              
-            <input type="submit" value="Suscribete"  class="envio2">
-            <div class="envio">
-               <a href=""></a> <i class="fab fa-facebook-square"></i> Ir a FaceBook </a> 
-            </div>             
-         </div>        
-    </div>      
+
+    <div class="container bg-dark">
+      <div class="row">
+        <div class="col">
+          <nav class="footer__navbar">
+            <ul class="footer__navbar--principal"> 
+                <li><a href="quienessomos.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="soporte.html">Soporte</a></li>          
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+         </nav>     
+        </div>
+        <div class="col">
+          <nav>
+            <ul class="footer__navbar--principal">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="novedades.html">Novedades</a></li>      
+                <li><a href="#">Mapa del Sitio</a></li>       
+            </ul>
+         </nav> 
+        </div>
+        <div class="col">
+          <div>
+            <p class="envio">Suscribete</p>
+            <input type="text" name="name" placeholder="Ingresa tu Email" required class="envio1">              
+             <input type="submit" value="Suscribete"  class="envio2">
+             <div class="envio">
+                <a href=""></a> <i class="fab fa-facebook-square"></i> Ir a FaceBook </a> 
+             </div>             
+          </div>        
+        </div>
+      </div>
+    </div>
   </footer>
+  <Script src="./js/bootstrap.min.js"></Script> 
 </body>
 </html>

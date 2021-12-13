@@ -1,0 +1,22 @@
+{
+  "name": "webematix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dandreabar/repositorio-codh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dandreabar/repositorio-codh/issues"
+  },
+  "homepage": "https://github.com/Dandreabar/repositorio-codh#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

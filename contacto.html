@@ -4,16 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ematix Corp</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="description" content="Sitio de proyectos y desarrollos informaticos">
+    <meta name="keywords" content="correo">
+    <title>Ematix Corp - Contactanos </title>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Stick+No+Bills:wght@200;600&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="contacto__Body">
+<body>
      <!--action indica donde enviamos el formulario o si se queda alli mismo-->
-    <form action=""  class="contacto__form">
+     <nav class="navbar navbar-light bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light"  >
+            <img src="./img/logoematix.jpg" width="40" height="34" class="d-inline-block align-text-top"> Ematix     
+          </a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+         <nav class="navbar navbar-expand-lg navbar-light bg-opacity-10 sticky-top">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="quienessomos.html">Sobre Nosotros</a>
+                    </li>          
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Plataforma On-Line</a></li>
+                        <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Servicios TI</a></li>
+                        <li><a class="dropdown-item" href="#">Asesorias Outsoursing</a></li>
+                      </ul>
+                    </li>             
+                    <li class="nav-item">
+                      <a class="nav-link" href="soporte.html">Soporte</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="clientes.html">Casos de Exito</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav> 
+     <div class="container m-6 border-4">      
+     <form  action=""  >
         <fieldset>
             <legend>Formulario de Consultas</legend>
             <label for="name">Nombre y Apellido :</label>
@@ -45,15 +105,17 @@
             <br>       
              <label for="consulta">Escribe tu Consulta</label>
              <br>  
-             <textarea name="consulta" id="" cols="30" rows="5" maxlength="600"></textarea>
+             <textarea class="texta" name="consulta" ></textarea>
             <div>Articulos</div>
             <input type="checkbox" name="cbox1" >Desea Recibir Ofertas de nuestros Productos
             <input type="checkbox" name="cbox2" >Desea Recibir Noticias sobre Nuestas Novedades           
             <br> 
             <br> 
-            <input type="submit" value="Envía tu Consulta">
-            <input type="reset"  value="Limpia tu Formulario">            
+            <input class="Bot-envio" type="submit" value="Envía tu Consulta">
+            <input class="Bot-limpia" type="reset"  value="Limpia tu Formulario">            
         </fieldset>
     </form>
+</div>
+<Script src="./js/bootstrap.min.js"></Script> 
 </body>
 </html>
